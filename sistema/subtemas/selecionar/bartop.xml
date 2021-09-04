@@ -1,0 +1,83 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+      <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <logoScale>1.2</logoScale>
+        <zIndex>41</zIndex>          
+        <logoSize>0.16 0.16</logoSize>
+        <color>00000000</color>
+		<logoRotation>-5.5</logoRotation>
+		<logoRotationOrigin>-3.2 0.5</logoRotationOrigin>
+		<logoAlignment>left</logoAlignment>
+        <maxLogoCount>13</maxLogoCount>
+      </carousel>
+
+ 	  <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./loadscreen/${system.theme}.png</path>
+         <path>./loadscreen/${system.theme}.jpg</path>
+         <zIndex>3</zIndex>          
+      </image>  
+
+	  <image name="marquee" extra="true">
+        <origin>0 0</origin>
+        <size>0.3 0.18</size>
+         <pos>0.562 0.01</pos> 
+        <path>./sistema/logos1/${system.theme}.png</path>
+        <path>./sistema/logos1/${system.theme}.svg</path>
+        <zIndex>8</zIndex>          
+    </image> 
+	  
+	  
+	  <image name="system-background" extra="true">
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <path>./sistema/subtemas/menu/bartop2.png</path>
+        <zIndex>7</zIndex>          
+    </image> 
+
+      <video name="tv_effect" extra="true">
+		<origin>0.5 0.5</origin>
+        	<size>0.4 0.48</size>
+		<pos>0.71 0.54</pos>
+         <path>./sistema/subtemas/efeito/effect_vhs_glitch.mp4</path>
+         <color>FFFFFF20</color>
+         <zIndex>6</zIndex>
+	  </video>
+
+
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<origin>0.5 0.5</origin>
+        	<size>0.4 0.48</size>
+		<pos>0.71 0.54</pos>
+		<delay>0.1</delay>
+		<effect>none</effect>		
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<color>ffffff</color>
+		<zIndex>5</zIndex>      
+    </video>
+
+
+	  <image name="novideo" extra="true">
+
+		<origin>0.5 0.5</origin>
+        	<size>0.4 0.495</size>
+		<pos>0.71 0.54</pos>
+	    <path>./sistema/subtemas/menu/default/novideo.png</path>
+        <zIndex>4</zIndex>          
+    </image> 
+
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
+		<visible>false</visible>
+		</text>
+</view>   
+
+</theme>

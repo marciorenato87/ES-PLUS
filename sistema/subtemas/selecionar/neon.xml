@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+
+<text name="systemInfo">
+	<glowColor>000000</glowColor>
+    <pos>-0.04 0.60</pos>
+    <backgroundColor>00000000</backgroundColor>
+    <color>ffffff</color>
+    <fontPath>./sistema/subtemas/txt/arcade.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+    <zIndex>20</zIndex>	     
+</text> 
+
+	   <helpsystem name="help">
+    <fontPath>./sistema/subtemas/txt/arcade.ttf</fontPath>
+         <fontSize>0.0235</fontSize>
+		 <origin>0.5 0.5</origin>
+         <pos>0.48 0.98</pos>      
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+      </helpsystem>
+
+	  <image name="background" extra="true">
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <path>./sistema/subtemas/menu/neon.jpg</path>
+        <zIndex>5</zIndex>          
+    </image> 
+
+</view>
+
+</theme>

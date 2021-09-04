@@ -1,0 +1,58 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+    <carousel name="systemcarousel">
+        <type>vertical</type>
+        <pos>0 0</pos>
+        <size>1 1.1</size>
+        <logoScale>1.5</logoScale>
+        <zIndex>50</zIndex>          
+        <logoSize>0.20 0.20</logoSize>
+        <color>00000000</color>
+		<logoAlignment>right</logoAlignment>
+        <maxLogoCount>5</maxLogoCount>
+      <zIndex>10</zIndex>
+
+      </carousel>
+
+<text name="systemInfo">
+	<glowColor>000000</glowColor>
+    <pos>0.3 0.955</pos>
+    <backgroundColor>00000000</backgroundColor>
+    <color>ffffff</color>
+    <fontPath>./sistema/subtemas/txt/arcade.ttf</fontPath>
+	<fontSize>0.028</fontSize>
+    <zIndex>20</zIndex>	     
+</text> 
+
+	   <helpsystem name="help">
+    <fontPath>./sistema/subtemas/txt/arcade.ttf</fontPath>
+         <fontSize>0.028</fontSize>
+		 <origin>0.5 0.5</origin>
+         <pos>0.38 0.98</pos>      
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+
+</view>
+
+<view name="system">
+	<image name="logo">
+    <linearSmooth>true</linearSmooth>
+	<path>./default/_inc/logo.png</path>
+        <path>./sistema/logos2/${system.theme}.png</path>
+        <path>./sistema/logos2/${system.theme}.svg</path>
+        <path>./sistema/logos2/${system.theme}.jpg</path>
+	</image>
+
+	<image name="footer" extra="true">
+	 <size>1 0.065</size>
+      <pos>0 1.02</pos>
+      <origin>0 1</origin>
+      <path>./sistema/subtemas/menu/footer.png</path>
+      <zIndex>12</zIndex>
+	</image>
+
+</view>
+</theme>

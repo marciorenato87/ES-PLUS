@@ -1,0 +1,87 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+      <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <logoScale>1.2</logoScale>
+        <zIndex>41</zIndex>          
+        <logoSize>0.16 0.16</logoSize>
+        <color>00000000</color>
+		<logoRotation>-5.5</logoRotation>
+		<logoRotationOrigin>-3.2 0.5</logoRotationOrigin>
+		<logoAlignment>left</logoAlignment>
+        <maxLogoCount>13</maxLogoCount>
+      </carousel>
+
+	  
+	  
+	  <image name="system-background" extra="true">
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <path>./sistema/subtemas/menu/retro.png</path>
+        <zIndex>4</zIndex>          
+    </image> 
+
+	
+	    <image name="screen_effect" extra="true">
+		<color>ffffff</color>
+		<path>./sistema/subtemas/efeito/effect_crt.png</path>
+		<origin>0.5 0.5</origin>
+        	<size>0.5 0.7</size>
+		<pos>0.5 0.5</pos>>
+		<tile>true</tile>
+		<zIndex>3</zIndex>
+	</image>
+
+      <video name="tv_effect" extra="true">
+		<origin>0.5 0.5</origin>
+        	<size>0.5 0.67</size>
+		<pos>0.5 0.5</pos>
+         <path>./sistema/subtemas/efeito/effect_vhs_glitch.mp4</path>
+         <color>FFFFFF20</color>
+         <zIndex>3</zIndex>
+	  </video>
+
+	
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<origin>0.5 0.5</origin>
+        	<size>0.5 0.67</size>
+		<pos>0.5 0.5</pos>
+		<delay>0.1</delay>
+		<effect>none</effect>		
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<color>ffffff</color>
+		<zIndex>2</zIndex>      
+    </video>
+
+	  <image name="novideo" extra="true">
+		<origin>0.5 0.5</origin>
+        	<size>0.5 0.67</size>
+		<pos>0.5 0.5</pos>
+	    <path>./sistema/subtemas/menu/default/novideo.png</path>
+        <zIndex>1</zIndex>          
+    </image> 
+</view> 
+ 
+<view name="system">
+	<image name="logo">
+    	<linearSmooth>true</linearSmooth>
+	<path>./default/_inc/logo.png</path>
+        <path>./sistema/logos/${system.theme}.png</path>
+        <path>./sistema/logos/${system.theme}.svg</path>
+        <path>./sistema/logos/${system.theme}.jpg</path>
+	<zIndex>5</zIndex>
+	</image>
+
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
+		<visible>false</visible>
+		</text>
+</view>
+
+</theme>

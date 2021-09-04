@@ -1,0 +1,56 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+	<origin>0 0</origin>
+        <pos>0.001 0</pos>
+        <size>1 1</size>
+        <zIndex>25</zIndex>          
+        <logoSize>0.9 0.9</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>
+        <logoScale>1.09</logoScale>
+      </carousel>
+
+<text name="systemInfo">
+	<glowColor>000000</glowColor>
+    <pos>0.18 0.95</pos>
+    <backgroundColor>00000000</backgroundColor>
+    <color>ffffff</color>
+    <fontPath>./sistema/subtemas/txt/arcade.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+    <zIndex>25</zIndex>	     
+</text> 
+
+	   <helpsystem name="help">
+    <fontPath>./sistema/subtemas/txt/arcade.ttf</fontPath>
+         <fontSize>0.0235</fontSize>
+		 <origin>0.5 0.5</origin>
+         <pos>0.68 0.98</pos>      
+         <textColor>FFFFFF00</textColor>
+         <iconColor>FFFFFF00</iconColor>
+      </helpsystem>
+
+	  <image name="background2" extra="true">
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <path>./sistema/subtemas/menu/selection.png</path>
+        <zIndex>25</zIndex>          
+    </image>
+	
+</view>
+
+<view name="system">
+	<image name="logo">
+    <linearSmooth>true</linearSmooth>
+	<path>./default/_inc/logo.png</path>
+	<path>./default/_inc/logo.png</path>
+        <path>./sistema/neon/${system.theme}.png</path>
+        <path>./sistema/neon/${system.theme}.svg</path>
+        <path>./sistema/neon/${system.theme}.jpg</path>
+	</image>
+</view>
+</theme>

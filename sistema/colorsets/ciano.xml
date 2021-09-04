@@ -1,0 +1,43 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<!--    All Color Menu -->
+<view name="menu">
+
+	<menuText name="menufooter">
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.025</fontSize>
+		<color>00FFFF</color>
+	</menuText>
+	<menuText name="menutext"> 
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.03</fontSize>
+		<color>ffffff</color>
+		<selectedColor>828282</selectedColor>
+		<separatorColor>00FFFF</separatorColor>
+		<selectorColor>00FFFF</selectorColor>
+		<selectorColorEnd>000000</selectorColorEnd>
+		<selectorGradientType>horizontal</selectorGradientType>
+	</menuText>
+	<menuTextSmall name="menutextsmall">
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		<color>ffffff</color>
+		<fontSize>0.028</fontSize>
+	</menuTextSmall>
+	<menuText name="menutitle">
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		<fontSize>0.04</fontSize>
+		<color>ffffff</color>
+	</menuText>
+<menuBackground name="menubg">
+<color>363636</color>
+<cornerSize>32 32</cornerSize>
+<path>./sistema/subtemas/menu/frame.png</path>
+</menuBackground>
+ </view> 
+	
+
+
+</theme>

@@ -1,0 +1,17 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+	   	  <image name="console" extra="true">
+         <origin>0 0</origin>
+         <pos>0.75 0.6</pos>
+         <size>0.25 0.25</size>        
+         <path>./sistema/subtemas/consoles/${system.theme}.jpg</path>
+		 <path>./sistema/subtemas/consoles/${system.theme}.png</path>
+         <zIndex>15</zIndex>      
+		 <visible>false</visible>		 
+      </image> 
+</view>
+
+</theme>

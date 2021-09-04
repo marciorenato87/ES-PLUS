@@ -1,0 +1,60 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>-0.75 0.364</pos>
+        <size>1.8 1</size>
+        <logoScale>1.3</logoScale>
+        <zIndex>15</zIndex>          
+        <logoSize>0.18 0.18</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>20</maxLogoCount>
+      </carousel>
+
+<text name="systemInfo">
+	<glowColor>000000</glowColor>
+    <pos>-0.35 0.95</pos>
+    <backgroundColor>00000000</backgroundColor>
+    <color>ffffff</color>
+    <fontPath>./sistema/subtemas/txt/arcade.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+    <zIndex>20</zIndex>	     
+</text> 
+
+	   <helpsystem name="help">
+    <fontPath>./sistema/subtemas/txt/arcade.ttf</fontPath>
+         <fontSize>0.0235</fontSize>
+		 <origin>0.5 0.5</origin>
+         <pos>0.5 0.98</pos>      
+         <textColor>000000</textColor>
+         <iconColor>000000</iconColor>
+      </helpsystem>
+
+
+
+ 	  <image name="background3" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./sistema/subtemas/menu/rodape.png</path>
+         <zIndex>10</zIndex>          
+      </image> 
+
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
+		<visible>false</visible>
+		</text>
+	
+</view>
+
+<view name="system">
+	<image name="logo">
+    <linearSmooth>true</linearSmooth>
+	<path>./default/_inc/logo.png</path>
+        <path>./sistema/logos2/${system.theme}.png</path>
+        <path>./sistema/logos2/${system.theme}.svg</path>
+        <path>./sistema/logos2/${system.theme}.jpg</path>
+	</image>
+</view>
+</theme>
